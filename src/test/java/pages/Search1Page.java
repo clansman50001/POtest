@@ -17,8 +17,6 @@ public class Search1Page {
     public void search(String text) {
         driver.findElement(searchField).sendKeys(text);
         driver.findElement(searchButton).click();
-
-
-    }
+        }
 
 }
