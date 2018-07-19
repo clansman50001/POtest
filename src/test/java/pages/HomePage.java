@@ -3,13 +3,13 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Search1Page {
+public class HomePage {
 
     private By searchField = By.id("text");
     private By searchButton = By.cssSelector(".search2__button button");
     private final WebDriver driver;
 
-    public Search1Page(WebDriver driver) {
+    public HomePage(WebDriver driver) {
 
         this.driver = driver;
     }
