@@ -21,8 +21,6 @@ public class BaseTest {
 
         System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
         driver = new ChromeDriver();
-        homePage = new HomePage(driver);
-        resultPage = new ResultPage(driver);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://yandex.ru");
