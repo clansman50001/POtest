@@ -9,9 +9,11 @@ public class HomePage {
     private By searchButton = By.cssSelector(".search2__button button");
     private final WebDriver driver;
 
+
     public HomePage(WebDriver driver) {
 
         this.driver = driver;
+
     }
 
     public void search(String text) {
